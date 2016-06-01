@@ -12,6 +12,7 @@ body{
 header {
 	nav,.navbar-inverse{
 		background:transparent;
+		height: 65px;
 	}
 	.navbar-brand{
 		padding: 8px 15px;
@@ -23,7 +24,7 @@ header {
 }
 .bg-perfil{
 	padding:250px 0;
-	background:url("../image/bg-header-2.jpg") no-repeat;
+	background:url("../image/background/bg-8.jpg") no-repeat;
 	background-size:cover;
 	background-color:rgba(0, 0, 255, 0.46);
 	background-blend-mode:color;
@@ -33,16 +34,14 @@ header {
 	}
 }
 #about-me{
+	background:url("../image/about.png");
+	background-color:rgba(0, 0, 255, 0.46);
+	background-blend-mode:color;
 	padding-top:50px;
 	padding-bottom:50px;
 	.perfil{
 		border-radius:100%;
 		width: 50%;
-	}
-	button.sprite-anim-go{
-	    width: 50px;
-    	height: 65px;
-    	background-image:url("../image/go.png");
 	}
 }
 footer{

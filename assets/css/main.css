@@ -8,7 +8,8 @@ body {
     font-family: Blackboard Ultra; }
 
 header nav, header .navbar-inverse {
-  background: transparent; }
+  background: transparent;
+  height: 65px; }
 header .navbar-brand {
   padding: 8px 15px;
   color: white; }
@@ -17,7 +18,7 @@ header .navbar-inverse .navbar-nav > li > a {
 
 .bg-perfil {
   padding: 250px 0;
-  background: url("../image/bg-header-2.jpg") no-repeat;
+  background: url("../image/background/bg-8.jpg") no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 255, 0.46);
   background-blend-mode: color;
@@ -26,15 +27,14 @@ header .navbar-inverse .navbar-nav > li > a {
     font-weight: bold; }
 
 #about-me {
+  background: url("../image/about.png");
+  background-color: rgba(0, 0, 255, 0.46);
+  background-blend-mode: color;
   padding-top: 50px;
   padding-bottom: 50px; }
   #about-me .perfil {
     border-radius: 100%;
     width: 50%; }
-  #about-me button.sprite-anim-go {
-    width: 50px;
-    height: 65px;
-    background-image: url("../image/go.png"); }
 
 footer {
   color: white; }

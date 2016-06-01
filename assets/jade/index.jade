@@ -34,12 +34,10 @@ html(lang="en")
 								a(href='services.html') MIS TRABAJOS
 							li
 								a(href='portfolio.html') CONTACTO
-		section.bg-perfil
-			.container
-				img(src="assets/image/nombre-1.png")
-				h2  FRONT-END DEVELOPER
-				button
-					.sprite-anim-go
+			.bg-perfil
+				.container
+					img(src="assets/image/name-2.png")
+					h2  FRONT-END DEVELOPER
 		section#about-me
 			.container
 				h2.pd CONOCEME 
@@ -47,22 +45,36 @@ html(lang="en")
 					.col-md-4
 						img(src="assets/image/perfil.jpg", class="perfil")
 					.col-md-8
-						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						|tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						|quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						|consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						|cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						|proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						p Mi nombre es Monica Ccencho Olarte, me encanta progrmaar
 		section.habilidades
 			.container
 				h2.pd HABILIDADES
-		section.trabajos
+		section.works
 			.container
 				h2.pd TRABAJOS
 				.row
-					.col-md-4
-					.col-md-4
-					.col-md-4
+					.col-md-1(style="color:#34495E;")
+						.btn-group
+							a(href="#scroller" data-slider="next")
+								img(src="image/work/agency.png")
+					.col-md-10
+						#scroller.carousel-inner
+							.second.carousel-inner
+								.item.active
+									.row
+										.col-xs-4
+											.item-inner
+												img(class="photo" src="image/work/future.png")
+										.col-xs-4
+											.item-inner
+												img(class="photo" src="image/work/future.png")
+										.col-xs-4
+											.item-inner
+												img(class="photo" src="image/work/future.png")
+					.col-md-1(style="color:#34495E;")
+						.btn-group
+							a(href="#scroller" data-slider="next")
+								img(src="image/work/agency.png")
 		footer
 			.footer-above
 				.container
